@@ -1,0 +1,30 @@
+import java.util.*;
+public class decisionmaking {
+    public static void main(String[] args){
+       
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter Your age: ");
+        int age = s.nextInt();
+        if (age < 19){
+            System.out.println("you are minor!");            
+        }
+        else{
+            System.out.println("you are major!");
+        }
+        
+        System.out.println("enter Your choice: 1. hurry! \t 2.Oops!");
+        int choice = s.nextInt();
+             
+        switch(choice){
+            case 1 : System.out.println("you said hurry!");
+            break;
+            
+            case 2 : System.out.println("you said Oops!");
+            break;
+            
+            default : System.out.println("your choice is invalid!. ");
+            break;
+        }
+               
+    }    
+}
