@@ -1,0 +1,27 @@
+public class Employee {
+     int yoj; 
+     String adress;
+     String name;  
+}  
+class information{  
+ public static void main(String args[]){  
+  //Creating objects  
+  Employee s1=new Employee();
+  Employee s2=new Employee();  
+  Employee s3=new Employee();  
+  //Initializing objects  
+  s1.yoj=1994;  
+  s1.name="Robert";  
+  s1.adress="64C- WallsStreet";
+  s2.yoj=2000;  
+  s2.name="sam";  
+  s2.adress="68D- WallsStreet";
+  s3.yoj=1999;  
+  s3.name="John";  
+  s3.adress="26B- WallsStreet";
+  //Printing data  
+  System.out.println(s1.name+" "+s1.yoj+" "+s1.adress);  
+  System.out.println(s2.name+" "+s2.yoj+" "+s2.adress); 
+  System.out.println(s3.name+" "+s3.yoj+" "+s3.adress);   
+ }  
+}  
